@@ -5,6 +5,13 @@
     padding: 0;
 }
 
+:root {
+    --bg-light: #ffffff;
+    --shadow-card: 0 4px 10px rgba(0, 0, 0, 0.5);
+    --text-color-pop: #4d4d4d;
+    --text-color-uppop: #717171;
+}
+
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
@@ -153,3 +160,35 @@ header ul li.first__button--register a:hover {
    margin-right: auto;
    width: 80%;
 }
+
+.manage__hero h2 {
+    font-size: 35px;
+    color: #4D4D4D;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.nexcent__text {
+    color: var(--text-color-uppop);
+    text-align: center;
+    margin-top: 15px;
+}
+
+h5 {
+    color: var(--text-color-pop);
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.manage__card p {
+    color: var(--text-color-uppop);
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card_img_top {
+    display: block;
+    margin: 0 auto;
+}
+
