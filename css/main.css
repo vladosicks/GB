@@ -10,6 +10,11 @@ body {
     font-weight: 400;
 }
 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -18,10 +23,6 @@ img {
     max-width: 100%;
 }
 
-.container {
-    margin: 0 auto;
-    width: 1400px;
-}
 
 header {
     padding: 30px 0;
@@ -29,7 +30,7 @@ header {
 
 header .logo {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 800;
 }
 
@@ -72,21 +73,26 @@ header ul li.first__button--register a:hover {
 }
 
 .hero__info {
-    width: 700px;
-    padding-top: 180px;
+    width: 1300px;
+    padding-top: 70px;
 }
 
 .hero__info h1 {
+    margin-left: 150px;
     color: #4D4D4D;
     font-size: 70px;
+    margin-top: -30px;
 }
+
 .hero__info p {
+    margin-left: 150px;
     color: #717171;
-    margin: 22px 0;
     font-size: 11px;
+    margin-bottom: 20px;
 }
 
 .hero__info button {
+    margin-left: 150px;
     background: #4CAF4F;
     padding: 9px 17px;
     border-radius: 5px;
@@ -105,11 +111,20 @@ header ul li.first__button--register a:hover {
 .hero__image {
     position: absolute;
     right: 220px;
-    bottom: 230px;
+    bottom: 210px;
 }
 
 .main__background {
-    background: #d1ddf6;
+    background: #eff4ff;
     bottom: 450px;
-    padding: 100px 0;
+    margin-top: 50px;
+    padding: 80px 0 190px 0;
+    width: 200%;
+    margin: 0 auto;
+}
+
+.hero__container {
+    max-width: 3500px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
