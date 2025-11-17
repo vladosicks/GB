@@ -177,18 +177,39 @@ header ul li.first__button--register a:hover {
 h5 {
     color: var(--text-color-pop);
     font-size: 25px;
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
+}
+
+.manage__cards {
+    margin-top: 80px;
 }
 
 .manage__card p {
     color: var(--text-color-uppop);
     margin: 0 auto;
     text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 250px;
 }
 
 .card_img_top {
     display: block;
     margin: 0 auto;
 }
+
+.manage__cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.manage__card {
+    flex: 1 1 calc(33.333% - 30px);
+}
+
+
 
